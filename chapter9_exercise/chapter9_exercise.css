@@ -13,7 +13,6 @@ header{
 main{
   width:960px;
   display:flex;
-  justify-content:center;
   margin:50px auto;
 
 }
@@ -28,6 +27,8 @@ main{
 
 .step{
   position:absolute;
+  top:0px;
+  left:0px;
   background-color:#FF9A4B;
   color:white;
 }
@@ -41,7 +42,7 @@ main{
 }
 
 .title{
-  margin-top:15px 0 5px 0;
+  margin:15px 0 5px 0;
 }
 
 .box p{
@@ -54,6 +55,7 @@ main{
   background-color:#EEEEEE;
   margin-right:30px;
   padding:10px;
+  position:relative;
 
 
 }
@@ -69,6 +71,7 @@ main{
   width:300px;
   background-color:#EEEEEE;
   padding:10px;
+  position:relative;
 }
 
 .image3{
@@ -92,12 +95,6 @@ footer {
          width:90%;
          margin:0 auto 20px auto;
   }
-
-  .image1{
-  }
-
-
-
 
   .box2{ width:90%;
          margin:0  auto 20px auto;
